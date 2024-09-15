@@ -3,7 +3,13 @@
     "description": "Boilerplates",
     "products": 
     [
-      
+        {
+            "name": "Shipfast",
+            "description": "The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app and make your first $ online fast.",
+            "logo": "https://shipfa.st/_next/static/media/logoAndName_transparent.9c74ebc0.png",
+            "link": "https://shipfa.st/",
+            "pricing": "PAID"
+          }
     ]
 }
   
