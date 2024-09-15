@@ -4,9 +4,9 @@ This repository serves as a comprehensive directory of open-source Software as a
 
 ## Saas
 
-- [AI](ai/README.md)
-- [Dev Tools](dev-tools/README.md)
-  - [Django](dev-tools/django.json)
+- [AI](dir/ai/README.md)
+- [Dev Tools](dir/dev-tools/README.md)
+  - [Django](dir/dev-tools/django.json)
 ## Features
 
 * **Categorization:** Tools are organized into categories and subcategories for easy navigation.
