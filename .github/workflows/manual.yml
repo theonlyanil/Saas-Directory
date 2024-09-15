@@ -10,6 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Run Python script
-      run: python update_readme.py
+      run: python scripts/update_readme.py
     - name: Run JavaScript script
-      run: node generate_readmes.js
+      run: node scripts/generate_readmes.js
