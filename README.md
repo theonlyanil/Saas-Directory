@@ -10,15 +10,11 @@ This repository serves as a comprehensive directory of open-source Software as a
 
 **How to Contribute:**
 
-[[Link to your contributing guidelines](https://github.com/theonlyanil/Saas-Directory/blob/main/CONTRIBUTING.md)]
+[[Contributing Guidelines](https://github.com/theonlyanil/Saas-Directory/blob/main/CONTRIBUTING.md)]
 
 **License:**
 
-This project is licensed under the MIT License. For more information, see the [https://github.com/theonlyanil/Saas-Directory/blob/main/LICENSE](LICENSE) file.
+This project is licensed under the MIT License. For more information, see the [LICENSE](https://github.com/theonlyanil/Saas-Directory/blob/main/LICENSE) file.
 
-**Join the Community:**
-
-* **GitHub:** [Link to your GitHub repository]
-* **[Add any other relevant community channels, such as Discord or Slack]**
 
 **Let's build a thriving ecosystem of open-source SaaS tools together!**
