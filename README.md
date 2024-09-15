@@ -17,6 +17,8 @@ This repository serves as a comprehensive directory of open-source Software as a
     - **Products:**
       - [Shopify](https://www.shopify.com/): A leading e-commerce platform for creating online stores.
       - [Dukaan](https://dukaan.io/): A mobile-first e-commerce platform designed for small businesses.
+
+
 ## Features
 
 * **Categorization:** Tools are organized into categories and subcategories for easy navigation.
