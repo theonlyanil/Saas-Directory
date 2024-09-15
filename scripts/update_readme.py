@@ -1,3 +1,15 @@
+"""
+This script automates the generation of the "Saas" section in your README file based on the structure of your category JSON files.
+
+It performs the following steps:
+
+1. Retrieves the project root directory.
+2. Generates category and subcategory data from the JSON files in the "dir" directory.
+3. Sorts categories and subcategories alphabetically.
+4. Creates markdown content for the "Saas" section, including links to category and subcategory README files.
+5. Updates the README file with the generated "Saas" section.
+"""
+
 import os
 import json
 
