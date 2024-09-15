@@ -35,7 +35,6 @@ function generateReadmeForCategory(categoryDir) {
     readmeContent += `### ${subcategoryMeta.name}\n`;
     readmeContent += `![${subcategoryMeta.name} icon](${subcategoryMeta.icon})\n\n`;
     readmeContent += `${subcategoryMeta.description}\n\n`;
-    readmeContent += `${subcategoryMeta.description}\n\n`;
     readmeContent += `#### Products:\n`;
     
     // List all products
