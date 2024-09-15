@@ -2,14 +2,6 @@
 
 This directory curates a comprehensive list of open-source SaaS tools categorized for easy browsing.
 
-## Social-Media
-
-- **Social Signal AI**
-  - Description: It turns social chatter into qualified customers and brings traffic to your startup.
-  - Logo: 
-  - Link: https://socialsignalai.com/
-  - Pricing: Paid with trial
-
 ## Ecommerce
 
 - **Shopify**
@@ -31,4 +23,12 @@ This directory curates a comprehensive list of open-source SaaS tools categorize
   - Logo: https://shipfa.st/_next/static/media/logoAndName_transparent.9c74ebc0.png
   - Link: https://shipfa.st/
   - Pricing: PAID
+
+## Social-Media
+
+- **Social Signal AI**
+  - Description: It turns social chatter into qualified customers and brings traffic to your startup.
+  - Logo: 
+  - Link: https://socialsignalai.com/
+  - Pricing: Paid with trial
 
