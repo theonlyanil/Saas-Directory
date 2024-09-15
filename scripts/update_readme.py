@@ -24,7 +24,7 @@ def generate_saas_section():
     root_dir = os.path.join(project_root, 'dir')
     categories = []
 
-    # Traverse the directory
+    # Traverse the directory to gather categories, subcategories, and products
     for category in os.listdir(root_dir):
         category_path = os.path.join(root_dir, category)
         if os.path.isdir(category_path):
@@ -35,9 +35,11 @@ def generate_saas_section():
                     if file.endswith('.json') and file != f'{category}.json':
                         subcat_data = read_json(os.path.join(category_path, file))
                         if subcat_data:
+                            products = subcat_data.get('products', [])
                             subcategories.append({
                                 'name': subcat_data['name'],
-                                'file': file
+                                'file': file,
+                                'products': products
                             })
                 categories.append({
                     'name': category_data['name'],
@@ -54,7 +56,14 @@ def generate_saas_section():
         markdown += f"- [{category['name']}](dir/{category['folder']})\n"
         for subcat in category['subcategories']:
             markdown += f"  - [{subcat['name']}](dir/{category['folder']}/{subcat['file']})\n"
-
+            if subcat['products']:
+                markdown += "    - **Products:**\n"
+                for product in subcat['products']:
+                    product_name = product.get('name', 'Unnamed Product')
+                    product_link = product.get('link', '#')
+                    product_desc = product.get('description', 'No description available.')
+                    markdown += f"      - [{product_name}]({product_link}): {product_desc}\n"
+    
     return markdown
 
 def read_json(file_path):
