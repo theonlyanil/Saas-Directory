@@ -13,3 +13,5 @@ jobs:
       run: python scripts/update_readme.py
     - name: Run JavaScript script
       run: node scripts/generate_readmes.js
+    - name: Run Python script
+      run: python scripts/manage_all_json.py
