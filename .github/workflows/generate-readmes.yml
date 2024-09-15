@@ -1,5 +1,3 @@
-
-
 name: Generate README Files
 
 # Trigger the workflow on push or pull request to the main branch, or when JSON files change
