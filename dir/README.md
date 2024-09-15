@@ -2,20 +2,6 @@
 
 This directory curates a comprehensive list of open-source SaaS tools categorized for easy browsing.
 
-## Dev-Tools
-
-- **Django REST Framework**
-  - Description: Toolkit for building Web APIs in Django.
-  - Logo: https://example.com/django-rest-logo.png
-  - Link: https://www.django-rest-framework.org/
-  - Pricing: FREE
-
-- **Shipfast**
-  - Description: The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app and make your first $ online fast.
-  - Logo: https://shipfa.st/_next/static/media/logoAndName_transparent.9c74ebc0.png
-  - Link: https://shipfa.st/
-  - Pricing: PAID
-
 ## Ecommerce
 
 - **Shopify**
@@ -26,7 +12,15 @@ This directory curates a comprehensive list of open-source SaaS tools categorize
 
 - **Dukaan**
   - Description: A mobile-first e-commerce platform designed for small businesses.
-  - Logo: https://dukaan.io/static/media/logo.svg
+  - Logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNO3DvsILDS7EfKd0Ywdb7IGLNVmtBuFdjeg&s
   - Link: https://dukaan.io/
   - Pricing: Various pricing plans available, including a free plan.
+
+## Dev-Tools
+
+- **Shipfast**
+  - Description: The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app and make your first $ online fast.
+  - Logo: https://shipfa.st/_next/static/media/logoAndName_transparent.9c74ebc0.png
+  - Link: https://shipfa.st/
+  - Pricing: PAID
 

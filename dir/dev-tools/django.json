@@ -3,13 +3,7 @@
     "description": "A high-level Python web framework for rapid development.",
     "products": 
     [
-      {
-        "name": "Django REST Framework",
-        "description": "Toolkit for building Web APIs in Django.",
-        "logo": "https://example.com/django-rest-logo.png",
-        "link": "https://www.django-rest-framework.org/",
-        "pricing": "FREE"
-      }
+      
     ]
 }
   

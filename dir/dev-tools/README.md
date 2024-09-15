@@ -28,5 +28,4 @@ A high-level Python web framework for rapid development.
 A high-level Python web framework for rapid development.
 
 #### Products:
-- [Django REST Framework](https://www.django-rest-framework.org/): Toolkit for building Web APIs in Django.
 
