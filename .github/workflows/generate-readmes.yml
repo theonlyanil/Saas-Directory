@@ -1,3 +1,5 @@
+
+
 name: Generate README Files
 
 # Trigger the workflow on push or pull request to the main branch, or when JSON files change
@@ -37,12 +39,12 @@ jobs:
         run: node scripts/generate-readmes.js
 
       # Commit and push the updated README.md files
-      - name: Commit and Push Changes
+      - name: Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions"
-          git add dir/**/README.md
+          git add data/**/README.md
           git commit -m "Auto-update README.md files"
-          git push
-        # Ignore if there are no changes to commit
+          git push https://x-access-token:${{ secrets.WORKFLOW }}@github.com/theonlyanil/Saas-Directory.git HEAD:main
         continue-on-error: true
+
