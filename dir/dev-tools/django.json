@@ -1,7 +1,6 @@
 {
     "name": "Django",
     "description": "A high-level Python web framework for rapid development.",
-    "icon": "https://example.com/django-icon.png",
     "tags": ["web", "framework", "python"],
     "products": 
     [

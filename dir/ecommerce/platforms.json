@@ -1,0 +1,20 @@
+{
+  "name": "E-commerce Platforms",
+  "description": "Popular platforms for building online stores.",
+  "products": [
+    {
+      "name": "Shopify",
+      "description": "A leading e-commerce platform for creating online stores.",
+      "logo": "https://cdn.shopify.com/shopifycloud/brochure/assets/brand-assets/shopify-logo-primary-logo-456baa801ee66a0a435671082365958316831c9960c480451dd0330bcdae304f.svg",
+      "link": "https://www.shopify.com/",
+      "pricing": "Various pricing plans available, including a free trial."
+    },
+    {
+      "name": "Dukaan",
+      "description": "A mobile-first e-commerce platform designed for small businesses.",
+      "logo": "",
+      "link": "https://dukaan.io/",
+      "pricing": "Various pricing plans available, including a free plan."
+    }
+  ]
+}

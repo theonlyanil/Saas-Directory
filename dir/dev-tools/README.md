@@ -10,8 +10,17 @@ Tools to help developers build, test, and deploy applications.
 - hosting
 
 ## Subcategories
+### Boilerplates
+![Boilerplates icon](undefined)
+
+Boilerplates
+
+undefined
+
+#### Products:
+
 ### Django
-![Django icon](https://example.com/django-icon.png)
+![Django icon](undefined)
 
 A high-level Python web framework for rapid development.
 
