@@ -17,6 +17,10 @@ Explore the [Wall of SaaS](https://theonlyanil.github.io/Saas-Directory/)!
     - **Products:**
       - [Shopify](https://www.shopify.com/): A leading e-commerce platform for creating online stores.
       - [Dukaan](https://dukaan.io/): A mobile-first e-commerce platform designed for small businesses.
+- [Social Media](dir/social-media)
+  - [E-commerce Platforms](dir/social-media/marketing.json)
+    - **Products:**
+      - [Social Signal AI](https://socialsignalai.com/): It turns social chatter into qualified customers and brings traffic to your startup.
 ## Features
 
 * **Categorization:** Tools are organized into categories and subcategories for easy navigation.

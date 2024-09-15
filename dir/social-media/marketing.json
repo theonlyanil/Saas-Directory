@@ -1,0 +1,13 @@
+{
+  "name": "E-commerce Platforms",
+  "description": "Popular platforms for building online stores.",
+  "products": [
+    {
+      "name": "Social Signal AI",
+      "description": "It turns social chatter into qualified customers and brings traffic to your startup.",
+      "logo": "",
+      "link": "https://socialsignalai.com/",
+      "pricing": "Paid with trial"
+    }
+  ]
+}
