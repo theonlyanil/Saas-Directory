@@ -1,13 +1,13 @@
 # Dev Tools
 
-![Dev Tools icon](https://example.com/dev-tools-icon.png)
-
 Tools to help developers build, test, and deploy applications.
 
 ## Tags
+- boilerplate
 - development
 - testing
-- deployment
+- library
+- hosting
 
 ## Subcategories
 ### Django

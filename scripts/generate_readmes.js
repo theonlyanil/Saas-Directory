@@ -14,7 +14,6 @@ function generateReadmeForCategory(categoryDir) {
 
   // Start building the README content
   let readmeContent = `# ${categoryMeta.name}\n\n`;
-  readmeContent += `![${categoryMeta.name} icon](${categoryMeta.icon})\n\n`;
   readmeContent += `${categoryMeta.description}\n\n`;
   readmeContent += `## Tags\n`;
   readmeContent += categoryMeta.tags.map(tag => `- ${tag}`).join('\n');
@@ -30,6 +29,7 @@ function generateReadmeForCategory(categoryDir) {
     readmeContent += `### ${subcategoryMeta.name}\n`;
     readmeContent += `![${subcategoryMeta.name} icon](${subcategoryMeta.icon})\n\n`;
     readmeContent += `${subcategoryMeta.description}\n\n`;
+    readmeContent += `${subcategoryMeta.pricing}\n\n`;
     readmeContent += `#### Products:\n`;
     
     // List all products
