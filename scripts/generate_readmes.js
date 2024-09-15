@@ -47,7 +47,7 @@ function generateReadmeForCategory(categoryDir) {
 
 // Main function to generate READMEs for all categories
 function generateAllReadmes() {
-  const dataDir = path.join(__dirname, '..', 'data');
+  const dataDir = path.join(__dirname, '..', 'dir');
   const categories = fs.readdirSync(dataDir).filter(file => fs.lstatSync(path.join(dataDir, file)).isDirectory());
 
   categories.forEach(category => {
