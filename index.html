@@ -10,6 +10,19 @@
     <div class="container">
         <h1>Wall of SaaS</h1>
         <div id="product-grid" class="product-grid">
+            <template id="product-card-template">
+                <div class="product-card">
+                    <div class="product-wrapper">
+                        <a href="{{ product.link }}" target="_blank" class="product-logo">
+                            <img src="{{ product.logo }}" alt="{{ product.name }} logo" />
+                        </a>
+                        <div class="product-caption">
+                            <h3>{{ product.name }}</h3>
+                            <p>{{ product.description }}</p>
+                        </div>
+                    </div>
+                </div>
+            </template>
         </div>
         <footer class="footer">
             <p>Want to add your SaaS to the list? <a href="https://github.com/theonlyanil/Saas-Directory/issues/new?title=Add%20Your%20SaaS">Submit a pull request</a> or <a href="https://github.com/theonlyanil/Saas-Directory/blob/main/CONTRIBUTING.md">DIY</a>.</p>

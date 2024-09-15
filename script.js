@@ -8,38 +8,27 @@ async function populateWallOfSaas() {
   const data = await fetchData();
 
   data.forEach(product => {
-    const productCard = document.createElement('div');
-    productCard.className = 'product-card';
+    // Read template content
+    const template = document.getElementById('product-card-template').content;
 
-    // Wrapper for logo and hover content
-    const productWrapper = document.createElement('div');
-    productWrapper.className = 'product-wrapper';
+    // Clone the template to avoid modifying the original
+    const productCard = template.cloneNode(true);
 
-    // Logo with link
-    const productLogo = document.createElement('a');
-    productLogo.href = product.link;
-    productLogo.target = '_blank';
-    const logoImage = document.createElement('img');
+    // Access elements within the cloned template
+    const productLink = productCard.querySelector('.product-logo');
+    productLink.href = product.link;
+    const logoImage = productLink.querySelector('img');
     logoImage.src = product.logo;
     logoImage.alt = `${product.name} logo`;
-    productLogo.appendChild(logoImage);
+    const productName = productCard.querySelector('h3');
+    productName.textContent = product.name;
+    const productDescription = productCard.querySelector('p');
+    productDescription.textContent = product.description;
 
-    // Hover content (initially hidden)
-    const hoverCaption = document.createElement('div');
-    hoverCaption.className = 'product-caption';
-    hoverCaption.innerHTML = `
-      <h3>${product.name}</h3>
-      <p>${product.description}</p>
-    `;
-
-    // Add elements to the structure
-    productWrapper.appendChild(productLogo);
-    productWrapper.appendChild(hoverCaption);
-    productCard.appendChild(productWrapper);
-
-    // Add product to grid
+    // Add the product card to the grid
     productGrid.appendChild(productCard);
   });
+
   
   
 }

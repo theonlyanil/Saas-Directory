@@ -26,46 +26,47 @@ h1 {
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    position: relative; /* Enable relative positioning for hover bubble */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
 }
 
-.product-card:hover .product-wrapper {
-    border: 1px solid rgba(0, 0, 0, 0.2); /* Subtle hover effect */
-}
-
-.product-wrapper {
-    position: relative; /* Enable relative positioning for hover bubble */
-    display: inline-block; /* Allow side-by-side placement */
+.product-card a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
 
 .product-card img {
     max-width: 100%;
     height: auto;
-    display: block;
     border-radius: 4px;
-    cursor: pointer; /* Make the image clickable */
+    display: block; /* Ensure the image is block-level for better layout */
 }
 
-.product-caption {
+.product-card .product-caption {
     position: absolute;
-    top: 100%; /* Position below the logo */
+    bottom: 0;
     left: 0;
-    width: 200px; /* Adjust width as needed */
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 10px;
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    border-radius: 4px; /* Rounded corners for bubble */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(100%);
+    text-align: center;
+    box-sizing: border-box;
+    pointer-events: none; /* Make sure the caption does not block clicks */
 }
 
 .product-card:hover .product-caption {
     opacity: 1;
+    transform: translateY(0);
 }
 
-.product-caption h3 {
-    margin-top: 0;  /* Remove top margin for better layout */
+.product-card .product-caption h3 {
+    margin-top: 0;
 }
 
 .footer {
