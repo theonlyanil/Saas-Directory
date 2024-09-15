@@ -10,11 +10,11 @@ async function populateWallOfSaas() {
   data.forEach(product => {
     const productCard = document.createElement('div');
     productCard.className = 'product-card';
-  
-    // Create a container for logo and hover content
-    const productContent = document.createElement('div');
-    productContent.className = 'product-content';
-  
+
+    // Wrapper for logo and hover content
+    const productWrapper = document.createElement('div');
+    productWrapper.className = 'product-wrapper';
+
     // Logo with link
     const productLogo = document.createElement('a');
     productLogo.href = product.link;
@@ -23,7 +23,7 @@ async function populateWallOfSaas() {
     logoImage.src = product.logo;
     logoImage.alt = `${product.name} logo`;
     productLogo.appendChild(logoImage);
-  
+
     // Hover content (initially hidden)
     const hoverCaption = document.createElement('div');
     hoverCaption.className = 'product-caption';
@@ -31,12 +31,12 @@ async function populateWallOfSaas() {
       <h3>${product.name}</h3>
       <p>${product.description}</p>
     `;
-  
+
     // Add elements to the structure
-    productContent.appendChild(productLogo);
-    productContent.appendChild(hoverCaption);
-    productCard.appendChild(productContent);
-  
+    productWrapper.appendChild(productLogo);
+    productWrapper.appendChild(hoverCaption);
+    productCard.appendChild(productWrapper);
+
     // Add product to grid
     productGrid.appendChild(productCard);
   });
