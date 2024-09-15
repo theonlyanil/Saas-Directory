@@ -1,0 +1,15 @@
+{
+    "name": "Django",
+    "description": "A high-level Python web framework for rapid development.",
+    "icon": "https://example.com/django-icon.png",
+    "tags": ["web", "framework", "python"],
+    "products": [
+      {
+        "name": "Django REST Framework",
+        "description": "Toolkit for building Web APIs in Django.",
+        "logo": "https://example.com/django-rest-logo.png",
+        "link": "https://www.django-rest-framework.org/"
+      }
+    ]
+  }
+  
