@@ -2,14 +2,6 @@
 
 This directory curates a comprehensive list of open-source SaaS tools categorized for easy browsing.
 
-## Social-Media
-
-- **Social Signal AI**
-  - Description: It turns social chatter into qualified customers and brings traffic to your startup.
-  - Logo: 
-  - Link: https://socialsignalai.com/
-  - Pricing: Paid with trial
-
 ## Dev-Tools
 
 - **Shipfast**
@@ -31,4 +23,12 @@ This directory curates a comprehensive list of open-source SaaS tools categorize
   - Logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNO3DvsILDS7EfKd0Ywdb7IGLNVmtBuFdjeg&s
   - Link: https://dukaan.io/
   - Pricing: Various pricing plans available, including a free plan.
+
+## Social-Media
+
+- **Social Signal AI**
+  - Description: It turns social chatter into qualified customers and brings traffic to your startup.
+  - Logo: 
+  - Link: https://socialsignalai.com/
+  - Pricing: Paid with trial
 
