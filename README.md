@@ -7,6 +7,8 @@ This repository serves as a comprehensive directory of open-source Software as a
 - [AI](dir/ai)
 - [Dev Tools](dir/dev-tools)
   - [Boilerplates](dir/dev-tools/boilerplates.json)
+    - **Products:**
+      - [Shipfast](https://shipfa.st/): The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app and make your first $ online fast.
   - [Django](dir/dev-tools/django.json)
     - **Products:**
       - [Django REST Framework](https://www.django-rest-framework.org/): Toolkit for building Web APIs in Django.

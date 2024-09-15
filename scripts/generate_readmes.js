@@ -1,3 +1,9 @@
+/*
+  Using JS for better error handling if a variable is missing.
+
+  run node generate_readmes.js to generate a readme in each category folder.
+*/
+
 const fs = require('fs');
 const path = require('path');
 
@@ -29,7 +35,7 @@ function generateReadmeForCategory(categoryDir) {
     readmeContent += `### ${subcategoryMeta.name}\n`;
     readmeContent += `![${subcategoryMeta.name} icon](${subcategoryMeta.icon})\n\n`;
     readmeContent += `${subcategoryMeta.description}\n\n`;
-    readmeContent += `${subcategoryMeta.pricing}\n\n`;
+    readmeContent += `${subcategoryMeta.description}\n\n`;
     readmeContent += `#### Products:\n`;
     
     // List all products

@@ -12,7 +12,7 @@
     {
       "name": "Dukaan",
       "description": "A mobile-first e-commerce platform designed for small businesses.",
-      "logo": "",
+      "logo": "https://dukaan.io/static/media/logo.svg",
       "link": "https://dukaan.io/",
       "pricing": "Various pricing plans available, including a free plan."
     }

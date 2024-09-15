@@ -15,16 +15,17 @@ Tools to help developers build, test, and deploy applications.
 
 Boilerplates
 
-undefined
+Boilerplates
 
 #### Products:
+- [Shipfast](https://shipfa.st/): The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app and make your first $ online fast.
 
 ### Django
 ![Django icon](undefined)
 
 A high-level Python web framework for rapid development.
 
-undefined
+A high-level Python web framework for rapid development.
 
 #### Products:
 - [Django REST Framework](https://www.django-rest-framework.org/): Toolkit for building Web APIs in Django.

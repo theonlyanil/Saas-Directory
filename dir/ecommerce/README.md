@@ -12,7 +12,7 @@ E-commerce related saas stuff
 
 Popular platforms for building online stores.
 
-undefined
+Popular platforms for building online stores.
 
 #### Products:
 - [Shopify](https://www.shopify.com/): A leading e-commerce platform for creating online stores.
