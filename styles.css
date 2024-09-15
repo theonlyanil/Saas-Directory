@@ -42,6 +42,7 @@ h1 {
 .product-card img {
     max-width: 100%;
     height: auto;
+    display: block;
     border-radius: 4px;
     cursor: pointer; /* Make the image clickable */
 }
