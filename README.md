@@ -4,11 +4,11 @@ This repository serves as a comprehensive directory of open-source Software as a
 
 ## Saas
 
-- [AI](dir/ai/README.md)
-- [Dev Tools](dir/dev-tools/README.md)
+- [AI](dir/ai)
+- [Dev Tools](dir/dev-tools)
   - [Boilerplates](dir/dev-tools/boilerplates.json)
   - [Django](dir/dev-tools/django.json)
-- [Ecommerce Products/Tools](dir/ecommerce/README.md)
+- [Ecommerce Products/Tools](dir/ecommerce)
   - [E-commerce Platforms](dir/ecommerce/platforms.json)
 ## Features
 

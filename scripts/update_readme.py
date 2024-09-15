@@ -51,7 +51,7 @@ def generate_saas_section():
     # Generate the markdown
     markdown = "## Saas\n\n"
     for category in categories:
-        markdown += f"- [{category['name']}](dir/{category['folder']}/README.md)\n"
+        markdown += f"- [{category['name']}](dir/{category['folder']})\n"
         for subcat in category['subcategories']:
             markdown += f"  - [{subcat['name']}](dir/{category['folder']}/{subcat['file']})\n"
 
