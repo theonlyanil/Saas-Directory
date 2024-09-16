@@ -35,8 +35,8 @@ To add a new product, follow these steps:
     {
       "name": "Your Product Name",
       "description": "A brief description of your product.",
-      "logo": "[https://example.com/your-product-logo.png](https://example.com/your-product-logo.png)",
-      "link": "[https://www.your-product-website.com](https://www.your-product-website.com)",
+      "logo": "https://example.com/your-product-logo.png",
+      "link": "https://www.your-product-website.com",
       "pricing": "Paid Plans"
     }
   ]
