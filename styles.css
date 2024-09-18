@@ -80,3 +80,17 @@ h1 {
     color: #007bff;
     text-decoration: none;
 }
+
+.no-logo {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Adjust based on your layout */
+    width: auto;  /* Adjust based on your layout */
+    text-align: center;
+  }
+  

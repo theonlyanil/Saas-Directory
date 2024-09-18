@@ -16,10 +16,25 @@ async function populateWallOfSaas() {
 
     // Access elements within the cloned template
     const productLink = productCard.querySelector('.product-logo');
-    productLink.href = product.link;
     const logoImage = productLink.querySelector('img');
-    logoImage.src = product.logo;
-    logoImage.alt = `${product.name} logo`;
+
+    if (product.logo) {
+      // If logo exists, set the image source
+      logoImage.src = product.logo;
+      logoImage.alt = `${product.name} logo`;
+    } else {
+      // If no logo, remove the image and display the product's name instead
+      logoImage.remove();
+      const fallbackName = document.createElement('div');
+      fallbackName.classList.add('no-logo');  // Add a class for styling
+      fallbackName.textContent = product.name;
+      productLink.appendChild(fallbackName);
+    }
+
+    // Set the link URL
+    productLink.href = product.link;
+
+    // Set product name and description
     const productName = productCard.querySelector('h3');
     productName.textContent = product.name;
     const productDescription = productCard.querySelector('p');
@@ -28,9 +43,6 @@ async function populateWallOfSaas() {
     // Add the product card to the grid
     productGrid.appendChild(productCard);
   });
-
-  
-  
 }
 
 document.addEventListener('DOMContentLoaded', populateWallOfSaas);
