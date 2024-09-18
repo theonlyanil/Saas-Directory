@@ -51,7 +51,6 @@ def generate_all_json(dir_path):
   with open(os.path.join(dir_path, 'all.json'), 'w') as f:
     json.dump(all_products, f, indent=2)
 
-# Replace 'your/dir/path' with the actual path to your directory
 project_root = get_project_root()
 root_dir = os.path.join(project_root, 'dir')
 generate_all_json(root_dir)

@@ -10,14 +10,6 @@ This directory curates a comprehensive list of open-source SaaS tools categorize
   - Link: https://socialsignalai.com/
   - Pricing: Paid with trial
 
-## Dev-Tools
-
-- **Shipfast**
-  - Description: The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app and make your first $ online fast.
-  - Logo: https://shipfa.st/_next/static/media/logoAndName_transparent.9c74ebc0.png
-  - Link: https://shipfa.st/
-  - Pricing: PAID
-
 ## Ecommerce
 
 - **Shopify**
@@ -31,4 +23,12 @@ This directory curates a comprehensive list of open-source SaaS tools categorize
   - Logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNO3DvsILDS7EfKd0Ywdb7IGLNVmtBuFdjeg&s
   - Link: https://dukaan.io/
   - Pricing: Various pricing plans available, including a free plan.
+
+## Dev-Tools
+
+- **Shipfast**
+  - Description: The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app and make your first $ online fast.
+  - Logo: https://shipfa.st/_next/static/media/logoAndName_transparent.9c74ebc0.png
+  - Link: https://shipfa.st/
+  - Pricing: PAID
 
